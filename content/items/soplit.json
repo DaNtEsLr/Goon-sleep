@@ -1,0 +1,9 @@
+{
+	"type": "material",
+	"name": "Соплит",
+	"description": "Достаточно твёрдый И Серьёзный Материал.",
+	"hardness": 4,
+	"cost": 2.0,
+	"color": "cde7a3",
+	"tier": 2
+}

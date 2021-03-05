@@ -1,0 +1,12 @@
+{
+	"name": "Большая соплитовая стена",
+	"description": "Ещё Крепче И Сопливей Чем Обычная",
+	"type": "Wall",
+	"health": 4321,
+	"size": 2,
+	"requirements": [
+		{ "item": "soplit", "amount": 21 }
+	],
+	"category": "defense",
+	"research": "sopel-wall"
+}

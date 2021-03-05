@@ -1,0 +1,12 @@
+{
+	"name": "Соплиттовая Стена",
+	"description": "Прочная липкая стена.",
+	"type": "Wall",
+	"health": 500,
+	"size": 1,
+	"requirements": [
+		{ "item": "soplit", "amount": 7 }
+	],
+	"category": "defense",
+	"research": "router"
+}

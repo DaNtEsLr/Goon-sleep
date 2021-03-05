@@ -1,0 +1,34 @@
+{
+	"type": "doubleTurret",
+	"name": "Соплевик",
+	"description": "Достаточно Серьёзная И Мощная Турель",
+	"health": 600,
+	"size": 3,
+	"recoil" : 4,
+	"reload": 3,
+	"range": 200,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 8,
+	"rotatespeed": 12,
+	"ammo": {
+		"soplit": {
+			"speed": 4.0,
+			"damage": 70,
+			"reloadMultiplier": 0.3,
+			"bulletWidth": 5,
+			"bulletHeight": 9,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+			"backColor": "dfefc4",
+			"frontColor": "cee7a3"
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 40 },
+		{ "item": "soplit", "amount": 25 },
+		{ "item": "lead", "amount": 70 }
+	],
+	"category": "turret",
+	"research": "duo"
+}

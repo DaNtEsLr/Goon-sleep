@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Смешиватель Т.Т.П.В.",
+	"description": "Смешивает Титан, Торий, Пластан и Воду, для получения Соплита",
+	"outputItem": {"item": "soplit", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1
+		},
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 },
+				{ "item": "plastanium", "amount": 3 },
+				{ "item": "thorium", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "plastanium", "amount": 10 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 }
+	],
+	"category": "crafting",
+	"research": "router",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
